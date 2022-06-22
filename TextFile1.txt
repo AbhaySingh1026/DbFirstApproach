@@ -1,0 +1,10 @@
+In Db 1st approach simply add this 4 packages -
+Microsoft.EntityFrameworkCore (6.0.6 or latest stable package)
+Microsoft.EntityFrameworkCore.SQLServer (6.0.6 or latest stable package)
+Microsoft.EntityFrameworkCore.Tools (6.0.6 or latest stable package)
+Microsoft.EntityFrameworkCore.Design(6.0.6 or latest stable package)
+
+Then make table acc to ur need in ur Db & then, for making code run this command - 
+Scaffold-DbContext "Data Source=DESKTOP-I3CUF5I;Initial Catalog=DbFirstApproach;Integrated Security=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+For Overwrite run this command - 
+Scaffold-DbContext "Data Source=DESKTOP-I3CUF5I;Initial Catalog=DbFirstApproach;Integrated Security=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models  -force

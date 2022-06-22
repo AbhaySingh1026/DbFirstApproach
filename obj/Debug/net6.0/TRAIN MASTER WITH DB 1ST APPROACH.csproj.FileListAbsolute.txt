@@ -1,0 +1,14 @@
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\bin\Debug\net6.0\TRAIN MASTER WITH DB 1ST APPROACH.deps.json
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\bin\Debug\net6.0\TRAIN MASTER WITH DB 1ST APPROACH.runtimeconfig.json
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\bin\Debug\net6.0\TRAIN MASTER WITH DB 1ST APPROACH.dll
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\bin\Debug\net6.0\TRAIN MASTER WITH DB 1ST APPROACH.pdb
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\obj\Debug\net6.0\TRAIN MASTER WITH DB 1ST APPROACH.csproj.AssemblyReference.cache
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\obj\Debug\net6.0\TRAIN MASTER WITH DB 1ST APPROACH.GeneratedMSBuildEditorConfig.editorconfig
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\obj\Debug\net6.0\TRAIN MASTER WITH DB 1ST APPROACH.AssemblyInfoInputs.cache
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\obj\Debug\net6.0\TRAIN MASTER WITH DB 1ST APPROACH.AssemblyInfo.cs
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\obj\Debug\net6.0\TRAIN MASTER WITH DB 1ST APPROACH.csproj.CoreCompileInputs.cache
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\obj\Debug\net6.0\TRAIN MASTER WITH DB 1ST APPROACH.dll
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\obj\Debug\net6.0\refint\TRAIN MASTER WITH DB 1ST APPROACH.dll
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\obj\Debug\net6.0\TRAIN MASTER WITH DB 1ST APPROACH.pdb
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\obj\Debug\net6.0\TRAIN MASTER WITH DB 1ST APPROACH.genruntimeconfig.cache
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\obj\Debug\net6.0\ref\TRAIN MASTER WITH DB 1ST APPROACH.dll
