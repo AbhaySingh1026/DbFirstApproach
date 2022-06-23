@@ -29,7 +29,26 @@ namespace TRAIN_MASTER_WITH_DB_1ST_APPROACH
                 traindetail.JourneyEndTime = TimeSpan.Parse(Console.ReadLine());
                 dbFirstApproachContext.Traindetails.Add(traindetail);
                 dbFirstApproachContext.SaveChanges();
+                Trainday trainday = new Trainday();
+                trainday.TrainNo = traindetail.TrainNo;
+                Console.WriteLine("Enter days on which this train runs(Just write true/false in front of each fields) - ");
+                Console.Write("Sunday - ");
+                trainday.Sunday = Convert.ToBoolean(Console.ReadLine());
+                Console.Write("Monday - ");
+                trainday.Monday = Convert.ToBoolean(Console.ReadLine());
+                Console.Write("Tuesday - ");
+                trainday.Tuesday = Convert.ToBoolean(Console.ReadLine());
+                Console.Write("Wednesday - ");
+                trainday.Wednesday = Convert.ToBoolean(Console.ReadLine());
+                Console.Write("Thursday - ");
+                trainday.Thursday = Convert.ToBoolean(Console.ReadLine());
+                Console.Write("Friday - ");
+                trainday.Friday = Convert.ToBoolean(Console.ReadLine());
+                Console.Write("Saturday - ");
+                trainday.Saturday = Convert.ToBoolean(Console.ReadLine());
                 Console.WriteLine("Inserted");
+                dbFirstApproachContext.Traindays.Add(trainday);
+                dbFirstApproachContext.SaveChanges();
             }
             catch(FormatException)
             {
@@ -160,26 +179,6 @@ namespace TRAIN_MASTER_WITH_DB_1ST_APPROACH
                 Console.WriteLine("Table is not present");
                 return;
             }
-        }
-        public void InsertDays()
-        {
-            Trainday trainday = new Trainday();
-            Console.WriteLine("Enter days on which this train runs(Just write true/false in front of each fields) - ");
-            Console.Write("Sunday - ");
-            trainday.Sunday = Convert.ToBoolean(Console.ReadLine());
-            Console.Write("Monday - ");
-            trainday.Monday = Convert.ToBoolean(Console.ReadLine());
-            Console.Write("Tuesday - ");
-            trainday.Tuesday = Convert.ToBoolean(Console.ReadLine());
-            Console.Write("Wednesday - ");
-            trainday.Wednesday = Convert.ToBoolean(Console.ReadLine());
-            Console.Write("Thursday - ");
-            trainday.Thursday = Convert.ToBoolean(Console.ReadLine());
-            Console.Write("Friday - ");
-            trainday.Friday = Convert.ToBoolean(Console.ReadLine());
-            Console.Write("Saturday - ");
-            trainday.Saturday = Convert.ToBoolean(Console.ReadLine());
-            trainday.IdNavigation = traindetail;
         }
     }
 }

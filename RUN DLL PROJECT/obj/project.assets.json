@@ -1794,11 +1794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\KelltonTech\\.NET training kellton\\Real Training Started\\AllAssignmentsAfterGaneshLeft\\TRAIN MASTER WITH DB 1ST APPROACH\\RUN DLL PROJECT\\RUN DLL PROJECT.csproj",
+      "projectUniqueName": "E:\\KelltonTech\\.NET training kellton\\Real Training Started\\AllAssignmentsAfterGaneshLeft\\TRAIN MASTER WITH DB 1ST APPROACH\\DbFirstApproach\\RUN DLL PROJECT\\RUN DLL PROJECT.csproj",
       "projectName": "RUN DLL PROJECT",
-      "projectPath": "E:\\KelltonTech\\.NET training kellton\\Real Training Started\\AllAssignmentsAfterGaneshLeft\\TRAIN MASTER WITH DB 1ST APPROACH\\RUN DLL PROJECT\\RUN DLL PROJECT.csproj",
+      "projectPath": "E:\\KelltonTech\\.NET training kellton\\Real Training Started\\AllAssignmentsAfterGaneshLeft\\TRAIN MASTER WITH DB 1ST APPROACH\\DbFirstApproach\\RUN DLL PROJECT\\RUN DLL PROJECT.csproj",
       "packagesPath": "C:\\Users\\Abhay Singh\\.nuget\\packages\\",
-      "outputPath": "E:\\KelltonTech\\.NET training kellton\\Real Training Started\\AllAssignmentsAfterGaneshLeft\\TRAIN MASTER WITH DB 1ST APPROACH\\RUN DLL PROJECT\\obj\\",
+      "outputPath": "E:\\KelltonTech\\.NET training kellton\\Real Training Started\\AllAssignmentsAfterGaneshLeft\\TRAIN MASTER WITH DB 1ST APPROACH\\DbFirstApproach\\RUN DLL PROJECT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Abhay Singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1815,8 +1815,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\KelltonTech\\.NET training kellton\\Real Training Started\\AllAssignmentsAfterGaneshLeft\\TRAIN MASTER WITH DB 1ST APPROACH\\TRAIN MASTER WITH DB 1ST APPROACH.csproj": {
-              "projectPath": "E:\\KelltonTech\\.NET training kellton\\Real Training Started\\AllAssignmentsAfterGaneshLeft\\TRAIN MASTER WITH DB 1ST APPROACH\\TRAIN MASTER WITH DB 1ST APPROACH.csproj"
+            "E:\\KelltonTech\\.NET training kellton\\Real Training Started\\AllAssignmentsAfterGaneshLeft\\TRAIN MASTER WITH DB 1ST APPROACH\\DbFirstApproach\\TRAIN MASTER WITH DB 1ST APPROACH.csproj": {
+              "projectPath": "E:\\KelltonTech\\.NET training kellton\\Real Training Started\\AllAssignmentsAfterGaneshLeft\\TRAIN MASTER WITH DB 1ST APPROACH\\DbFirstApproach\\TRAIN MASTER WITH DB 1ST APPROACH.csproj"
             }
           }
         }

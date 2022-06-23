@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U4f1aYFutGuTWMYT7q6fg0JHfzGD4tr2DViw+mA91HeagHiJi623J/sOgy/MIWnEMykLHVZiTfk/LBij3Ly+Pw==",
+  "dgSpecHash": "jT1zpITiXGmfmOVIv23HTpgzCHRcxiiuM39GLii4S4JGwakU9cQHbQo60iHK1xBa1FwXlL0bJOmkuHdKQhk0vQ==",
   "success": true,
-  "projectFilePath": "E:\\KelltonTech\\.NET training kellton\\Real Training Started\\AllAssignmentsAfterGaneshLeft\\TRAIN MASTER WITH DB 1ST APPROACH\\TRAIN MASTER WITH DB 1ST APPROACH.csproj",
+  "projectFilePath": "E:\\KelltonTech\\.NET training kellton\\Real Training Started\\AllAssignmentsAfterGaneshLeft\\TRAIN MASTER WITH DB 1ST APPROACH\\DbFirstApproach\\TRAIN MASTER WITH DB 1ST APPROACH.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abhay Singh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Abhay Singh\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

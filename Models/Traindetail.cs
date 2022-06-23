@@ -11,7 +11,5 @@ namespace TRAIN_MASTER_WITH_DB_1ST_APPROACH.Models
         public string ToStation { get; set; } = null!;
         public TimeSpan JourneyStartTime { get; set; }
         public TimeSpan JourneyEndTime { get; set; }
-
-        public virtual Trainday Trainday { get; set; } = null!;
     }
 }

@@ -32,9 +32,12 @@ namespace TRAIN_MASTER_WITH_DB_1ST_APPROACH.Models
         {
             modelBuilder.Entity<Trainday>(entity =>
             {
+                entity.HasKey(e => e.TrainNo)
+                    .HasName("PK__TRAINDAY__8ED1D8CD916F3FA3");
+
                 entity.ToTable("TRAINDAYS");
 
-                entity.Property(e => e.Id).ValueGeneratedOnAdd();
+                entity.Property(e => e.TrainNo).ValueGeneratedNever();
 
                 entity.Property(e => e.Friday).HasColumnName("FRIDAY");
 
@@ -49,12 +52,6 @@ namespace TRAIN_MASTER_WITH_DB_1ST_APPROACH.Models
                 entity.Property(e => e.Tuesday).HasColumnName("TUESDAY");
 
                 entity.Property(e => e.Wednesday).HasColumnName("WEDNESDAY");
-
-                entity.HasOne(d => d.IdNavigation)
-                    .WithOne(p => p.Trainday)
-                    .HasForeignKey<Trainday>(d => d.Id)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__TRAINDAYS__Id__31EC6D26");
             });
 
             modelBuilder.Entity<Traindetail>(entity =>
