@@ -1,0 +1,6 @@
+﻿E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\DbFirstApproach\AllMethods.cs
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\DbFirstApproach\Models\DbFirstApproachContext.cs
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\DbFirstApproach\Models\Trainday.cs
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\DbFirstApproach\Models\Traindetail.cs
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\DbFirstApproach\README.md
+E:\KelltonTech\.NET training kellton\Real Training Started\AllAssignmentsAfterGaneshLeft\TRAIN MASTER WITH DB 1ST APPROACH\DbFirstApproach\TextFile1.txt

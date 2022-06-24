@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.2.0.0",
+        "fileVersion": "4.2.0-4.22220.5 (432d17a8)",
+        "semanticVersion": "4.2.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/KelltonTech/.NET%20training%20kellton/Real%20Training%20Started/AllAssignmentsAfterGaneshLeft/TRAIN%20MASTER%20WITH%20DB%201ST%20APPROACH/DbFirstApproach/RUN%20DLL%20PROJECT/Program.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 20,
+                  "endLine": 4,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/KelltonTech/.NET%20training%20kellton/Real%20Training%20Started/AllAssignmentsAfterGaneshLeft/TRAIN%20MASTER%20WITH%20DB%201ST%20APPROACH/DbFirstApproach/RUN%20DLL%20PROJECT/Program.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 21,
+                  "endLine": 31,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/KelltonTech/.NET%20training%20kellton/Real%20Training%20Started/AllAssignmentsAfterGaneshLeft/TRAIN%20MASTER%20WITH%20DB%201ST%20APPROACH/DbFirstApproach/RUN%20DLL%20PROJECT/Program.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 13,
+                  "endLine": 33,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S907": {
+          "id": "S907",
+          "shortDescription": "\"goto\" statement should not be used",
+          "fullDescription": "goto is an unstructured control flow statement. It makes code less readable and maintainable. Structured control flow statements such as if, for, while, continue or break should be used instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-907",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

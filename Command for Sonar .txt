@@ -1,0 +1,3 @@
+dotnet sonarscanner begin /k:"Entity-Db-First" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="sqp_e4ade9fd3333df0ff536fcd5f459180ef8adabf8"
+dotnet build
+dotnet sonarscanner end /d:sonar.login="sqp_e4ade9fd3333df0ff536fcd5f459180ef8adabf8"
