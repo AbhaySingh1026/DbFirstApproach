@@ -5,6 +5,7 @@ namespace TRAIN_MASTER_WITH_DB_1ST_APPROACH
     public class AllMethods
     {
         private DbFirstApproachContext dbFirstApproachContext;
+        int storeTrainNo { get; set; }
         public AllMethods()
         {
             dbFirstApproachContext = new DbFirstApproachContext();
@@ -30,7 +31,8 @@ namespace TRAIN_MASTER_WITH_DB_1ST_APPROACH
                 dbFirstApproachContext.Traindetails.Add(traindetail);
                 dbFirstApproachContext.SaveChanges();
                 Trainday trainday = new Trainday();
-                trainday.TrainNo = traindetail.TrainNo;
+                storeTrainNo = traindetail.TrainNo;
+                trainday.TrainNo = storeTrainNo;
                 Console.WriteLine("Enter days on which this train runs(Just write true/false in front of each fields) - ");
                 Console.Write("Sunday - ");
                 trainday.Sunday = Convert.ToBoolean(Console.ReadLine());
@@ -52,6 +54,10 @@ namespace TRAIN_MASTER_WITH_DB_1ST_APPROACH
             }
             catch(FormatException)
             {
+                int trainNo = storeTrainNo;
+                var trainDetailObj = dbFirstApproachContext.Traindetails.Where(x => x.TrainNo == trainNo).FirstOrDefault();
+                dbFirstApproachContext.Traindetails.Remove(trainDetailObj);
+                dbFirstApproachContext.SaveChanges();
                 Console.WriteLine("Please enter details with correct datatypes - ");
                 goto Top;
             }
@@ -115,6 +121,9 @@ namespace TRAIN_MASTER_WITH_DB_1ST_APPROACH
                     return;
                 }
                 dbFirstApproachContext.Traindetails.Remove(trainDetailObj);
+                dbFirstApproachContext.SaveChanges();
+                var trainDaysObj = dbFirstApproachContext.Traindays.Where(x => x.TrainNo == trainNo).FirstOrDefault();
+                dbFirstApproachContext.Traindays.Remove(trainDaysObj);
                 dbFirstApproachContext.SaveChanges();
                 Console.WriteLine("Record Deleted");
             }
